@@ -15,5 +15,5 @@ for text_file in text_files:
         x_axis = data[:,0]
         y_axis = data[:,1]
         plt.plot(x_axis, y_axis, label=text_file)
-plt.legend()
+        plt.legend()
 plt.show()
